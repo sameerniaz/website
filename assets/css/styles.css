@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("/assets/ttf/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    padding: 80px 30px 30px 30px;
+    background: rgb(55,4,108);
+    background: radial-gradient(circle at 50% 10%, rgba(55,4,108,1) 0%, rgba(30,12,48,1) 100%);
+    color: #fff;
+}
+
+#main p {
+    margin-bottom: 20px;
+}
+
+#main a {
+    color: #fff;
+}
+
+#note {
+    margin-top: 40px;
+}
